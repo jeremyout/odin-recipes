@@ -1,0 +1,39 @@
+body {
+  background-color: #eeedde;
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  color: #141e27;
+  font-family: Verdana, sans-serif;
+}
+
+img {
+  height: auto;
+  width: 400px;
+}
+
+.recipe-links {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.fullscreen {
+  width: auto;
+  height: 100vh;
+  padding: 10vh;
+  background: url("images/cooking-background.png") center/cover;
+}
+
+.recipe-page {
+  padding: 0 40px 40px;
+}
+
+.recipe-img {
+  padding-left: 20px;
+}
+
+.recipe-name {
+  color: #203239;
+}
