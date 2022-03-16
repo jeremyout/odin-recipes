@@ -9,6 +9,20 @@ h1 {
   font-family: Verdana, sans-serif;
 }
 
+.animate-slide-left {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
 img {
   height: auto;
   width: 400px;
